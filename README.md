@@ -22,3 +22,17 @@ A custom text-parsing utility built in Python to programmatically analyze creati
 4. Run the script:
    ```bash
    python processor.py
+
+## Example Instructions
+1. Run the script with terminal.
+2. Check project folder panel on the left. The script is programmed to automatically generate two new files to test with: sample_manuscript.txt (the dummy text) and editing_dashboard.csv (the output).
+3. Open editing_dashboard.csv using Microsoft Excel, Apple Numbers, or Google Sheets. You will see a clean table with three columns organising the flagged sentences, their word counts, and the specific writing issues detected (like passive voice or overused words).
+When you are ready to test it on actual manuscript, drag real .txt file into the terminal folder. Then, scroll to the very bottom of processor.py, delete everything under if __name__ == "__main__":, and replace with:
+
+<code>
+if __name__ == "__main__":
+    # Replace with your file's exact name
+    processor = ManuscriptProcessor("my_real_manuscript.txt") 
+    processor.analyze_manuscript()
+</code>
+5. Run the script again, and it will generate a brand new CSV dashboard.
