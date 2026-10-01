@@ -34,5 +34,5 @@ if __name__ == "__main__":
     # Replace with your file's exact name
     processor = ManuscriptProcessor("my_real_manuscript.txt") 
     processor.analyze_manuscript()
-</code>
+</code><br>
 5. Run the script again, and it will generate a brand new CSV dashboard.
