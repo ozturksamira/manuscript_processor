@@ -1,5 +1,6 @@
 # The Manuscript Processor
 
+The original script processor that inspired the making of (Magnolia Margin)[https://magnoliamargin.ozturk05samira.workers.dev]
 A custom text-parsing utility built in Python to programmatically analyze creative writing manuscripts. The script parses large bodies of text, applies linguistic heuristics to identify common writing pitfalls, and outputs a streamlined CSV dashboard for highly targeted editing.
 
 ## Core Features
